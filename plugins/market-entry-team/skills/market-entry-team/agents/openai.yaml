@@ -1,0 +1,4 @@
+interface:
+  display_name: "海外市场进入专家团"
+  short_description: "多专家研究区域市场进入、产品、渠道与投入产出"
+  default_prompt: "使用 $market-entry-team，先向我确认产品、目标市场和核心问题，再启动必要专家。"

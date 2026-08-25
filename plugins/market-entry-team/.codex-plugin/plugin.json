@@ -1,0 +1,22 @@
+{
+  "name": "market-entry-team",
+  "version": "0.1.0",
+  "description": "Evidence-based regional market-entry and commercialization planning.",
+  "author": {
+    "name": "Market Entry Team Maintainers"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "区域商业化专家团",
+    "shortDescription": "研究目标市场、合规、渠道、产品和上市计划。",
+    "longDescription": "按需调度法规、市场渠道、消费者、产品品牌、增长、铺货和商业测算专家，产出可验证、可执行的区域商业化方案。",
+    "developerName": "Market Entry Team Maintainers",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "为我的产品制定进入日本市场的商业化方案。",
+      "研究产品进入目标渠道所需的资质、流程和费用。",
+      "比较三个候选国家的市场、法规和渠道可行性。"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "market-entry-team-marketplace",
+  "interface": {
+    "displayName": "区域商业化专家团"
+  },
+  "plugins": [
+    {
+      "name": "market-entry-team",
+      "source": {
+        "source": "local",
+        "path": "./plugins/market-entry-team"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
