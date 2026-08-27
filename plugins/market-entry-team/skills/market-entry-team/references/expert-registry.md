@@ -11,6 +11,7 @@
 | 品牌增长与用户转化专家 | `references/experts/brand-growth-expert.md` | 无专属模型、Skill或MCP |
 | 渠道进入与铺货专家 | `references/experts/channel-growth-expert.md` | 无专属模型、Skill或MCP |
 | 商业模式与行动计划专家 | `references/experts/business-planning-expert.md` | 无专属模型、Skill或MCP |
+| 组织与人才配置专家 | `references/experts/organization-talent-expert.md` | 仅用户或指定决策负责人明确表达招聘、岗位设计或团队配置意图时触发；无专属模型、Skill或MCP |
 | 独立审查专家 | `references/experts/independent-reviewer.md` | 无专属模型、Skill或MCP |
 
 ## 调用规则
@@ -21,3 +22,4 @@
 4. 本 Skill 不依赖用户个人目录中的自定义 Agent 配置。只要运行环境支持子 Agent，就按专家合同创建对应角色。
 5. 后续修改某位专家的职责、输出或专属工具时，优先只修改其合同文件。只有角色选择、阶段关系或文件归属变化时，才修改本注册表或`orchestration.md`。
 6. 完整项目按`orchestration.md`执行“阶段间串行、阶段内按独立性并行”。同阶段并行专家的任务必须包含同一版`work/project_state.md`和已确认上游文件，不得把其他并行专家的未定稿文件加入上下文。
+7. 组织与人才配置专家不属于五个市场进入阶段，不得因市场报告完成而自动调用。招聘负责人时读取用户确认的任务受理信息和父任务指定的已有报告，不要求标准项目文件齐全；补齐执行团队时读取`work/project_state.md`和父任务指定的已确认报告。
